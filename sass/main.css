@@ -21,22 +21,21 @@ body {
 }
 
 .sass-introduction {
-  border: 0.05rem solid #521751;
-  background: #fae5ff;
+  border: 0.05rem solid #0a5316;
+  background: #d3fad9;
   padding: 2rem;
   text-align: center;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
   width: 90%;
   box-sizing: border-box;
 }
-
 .sass-introduction p {
   margin: 0;
 }
 
 .sass-details {
-  border: 0.05rem solid #521751;
-  background: #fae5ff;
+  border: 0.05rem solid #0a5316;
+  background: #d3fad9;
   padding: 1rem;
   text-align: center;
   margin: 2rem 0;
@@ -45,9 +44,8 @@ body {
 }
 
 .section-header {
-  border-bottom: 0.05rem solid #521751;
+  border-bottom: 0.05rem solid #0a5316;
 }
-
 .section-header h1 {
   margin: 0 0 1rem 0;
 }
@@ -68,10 +66,10 @@ body {
 }
 .documentation-links .documentation-link {
   text-decoration: none;
-  color: #521751;
+  color: #0a5316;
   display: block;
   padding: 0.2rem;
-  border: 0.05rem solid #521751;
+  border: 0.05rem solid #0a5316;
 }
 .documentation-links .documentation-link:hover,
 .documentation-links .documentation-link:active {
