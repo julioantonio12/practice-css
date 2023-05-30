@@ -47,7 +47,6 @@ body {
 .sass-introduction {
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
 }
-
 .sass-introduction p {
   margin: 0;
 }
@@ -85,8 +84,7 @@ body {
   padding: 0.2rem;
   border: 0.05rem solid #0a5316;
 }
-.documentation-links .documentation-link:hover,
-.documentation-links .documentation-link:active {
+.documentation-links .documentation-link:hover, .documentation-links .documentation-link:active {
   color: white;
   background: #fa923f;
   border-color: #fa923f;

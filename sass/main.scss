@@ -54,10 +54,9 @@ body {
   // padding: $size-default * 2;
   @extend .sass-section;
   box-shadow: $size-tiny $size-tiny 0.1rem #ccc;
-}
-
-.sass-introduction p {
-  margin: 0;
+  p {
+    margin: 0;
+  }
 }
 
 .sass-details {
@@ -91,13 +90,13 @@ body {
     display: block;
     padding: $size-tiny;
     border: $border-default;
-  }
-
-  .documentation-link:hover,
-  .documentation-link:active {
-    color: white;
-    background: map-get($colors, secondary);
-    border-color: map-get($colors, secondary);
+    
+    &:hover,
+    &:active {
+      color: white;
+      background: map-get($colors, secondary);
+      border-color: map-get($colors, secondary);
+    }
   }
 }
 
