@@ -38,31 +38,28 @@ body {
   width: 90%;
   box-sizing: border-box;
 }
+@media (min-width: 40rem) {
+  .sass-section, .sass-details, .sass-introduction {
+    width: 30rem;
+  }
+}
 
 .sass-introduction {
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
 }
+
 .sass-introduction p {
   margin: 0;
-}
-@media (min-width: 40rem) {
-  .sass-introduction {
-    width: 30rem;
-  }
 }
 
 .sass-details {
   margin: 2rem 0;
 }
-@media (min-width: 40rem) {
-  .sass-details {
-    width: 30rem;
-  }
-}
 
 .section-header {
   border-bottom: 0.05rem solid #0a5316;
 }
+
 .section-header h1 {
   margin: 0 0 1rem 0;
 }

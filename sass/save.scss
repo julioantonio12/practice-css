@@ -7,7 +7,7 @@
   display: flex;
 }
 @mixin media-min-width($width) {
-  @media (min-width: $width) {
+  @media (min-width: width) {
     @content
   }
 }
